@@ -1,0 +1,93 @@
+/* min-width for dropdown menu*/
+.dropdown-menu {
+  min-width: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #CACACA;
+  //color: blue;
+}
+
+.fn-hide {
+  display: none;
+}
+
+.show-date {
+  float: right;
+  font-size: 13px;
+}
+
+.alert-list{
+  border: 1px solid #CCC;
+  background: #EEEEEE;
+
+}
+
+.tasks-container{
+  margin: 12px;
+}
+
+.tasks {
+  padding: 20px 12px;
+}
+
+.task-complete {
+  text-decoration: line-through;
+}
+
+.task-active {
+  padding-left: 18px;
+}
+
+.task {
+  list-style: none;
+  position: relative;
+  padding: 10px 0 10px 0;
+  border-bottom: dotted 1px #ccc;
+}
+
+.annotations {
+  position: relative;
+  margin: 15px 0 0 20px;
+  padding: 40px 20px 0;
+
+  border: 1px solid #DDD;
+  border-radius: 4px;
+}
+
+.annotations::after {
+  content: "Annotations";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 3px 7px;
+
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #DDD;
+  background: whiteSmoke;
+  color: #9DA0A4;
+  border-radius: 4px;
+}
+
+.annotation {
+  border-left: solid 4px #f3f3f3;
+  padding: 6px 0 6px 12px;
+  margin: 0 0 10px;
+}
+
+.md-editor {
+  margin: 0 0 10px;
+}
+
+.md-editor-footer p {
+  padding-top: 10px;
+  margin-bottom: 0;
+
+  font-size: 12px;
+  color: #999;
+}
